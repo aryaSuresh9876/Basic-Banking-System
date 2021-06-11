@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  font-family: 'roboto';
+  background: #3f3697;
+}
+.container{
+  padding: 3% 10%;
+  padding-left: 230px;
+}
+.logo{
+  color: white;
+  font-size: 0.8em;
+}
+.main{
+  position: absolute;
+  top: 240px;
+  color: white;
+  font-size: 3em;
+  font-weight: 800;
+}
+.main-2{
+  color: #fff;
+  font-size: 3em;
+  font-weight: 800;
+  padding-right: 20px;
+}
+.container .col p{
+  color: #fff;
+  padding-right: 80px;
+}
+
+p{
+  font-size: 0.7em;
+  color: white;
+  opacity: 0.7;
+  padding-top: 20px;
+  font-weight: 100;
+  letter-spacing: 0.4em;
+  padding-right: 80px;
+}
+.main-content{
+  padding-top: 20%;
+  text-align: center;
+  padding-right: 60px;
+}
+.button{
+  background: #f3c623;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 9px;
+  text-align: center;
+  cursor: pointer;
+}
+.button-2{
+  background: none;
+  border: 2px solid #fff;
+  width: 180px;
+  height: 40px;
+  color: #fff;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 9px;
+  text-align: center;
+  cursor: pointer;
+}
+.button-2:hover{
+  background: #fff;
+  color: #3f3697;
+}
+.button-3{
+  padding-left: 8px;
+}
+.btn{
+  padding-top: 35px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+}
+.button:hover{
+  background:#3b14a7;
+  color: white;
+  border-radius: 4px;
+}
+.right{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 200px;
+}
+img{
+  position: relative;
+  top: 50px;
+  width: 700px;
+}
